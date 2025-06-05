@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>InfoSphere</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./styles/card.css" />
+</head>
+
+
+<body>
+    <div class="loader" id="loader"></div>
+
+    <h1>InfoSphere</h1>
+    <div class="inputs">
+        <input type="text" id="input" placeholder="Enter the Country name" autocomplete="off">
+        <button id="btn">Search Info</button>
+    </div>
+    <div class="cards-cont">
+        <div class="card">
+            <div class="left">
+                <div class="flag">
+
+                </div>
+            </div>
+            <div class="right">
+                <div class="details">
+                    <h1 class="contName">Name</h1>
+                    <h2 class="capital">Capital: <span> Bhopal</span></h2>
+                    <h2 class="region">Region: <span> </span></h2>
+                    <h2 class="population">Population: <span></span></h2>
+                    <h2 class="currency">Currency: <span></span></h2>
+                </div>
+                <div class="weather">
+                    <h1>Weather</h1>
+                    <h2 class="temp">Temperature: <span></span></h2>
+                    <h2 class="humidity">Humidity: <span></span></h2>
+                    <h2 class="pressure">Pressure: <span></span></h2>
+                    <h2 class="wind">Wind: <span></span></h2>
+                </div>
+                <div class="time">
+                    <h1>Time</h1>
+                    <h2 class="time">Time: <span></span></h2>
+                    <h2 class="sunrise">Sunrise: <span></span></h2>
+                    <h2 class="sunset">Sunset: <span></span></h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/color-thief/2.3.2/color-thief.umd.js"></script>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
