@@ -72,7 +72,7 @@ async function fetchCont(input) {
 
 
 async function fetchWeather(input) {
-    let response = await fetch(`http://api.openweathermap.org/geo/1.0/direct?q=${input}&limit=1&appid=2bdf2700ada2189397424c40aefd7453`)
+    let response = await fetch(`https://api.openweathermap.org/geo/1.0/direct?q=${input}&limit=1&appid=2bdf2700ada2189397424c40aefd7453`)
     let data = await response.json();
     if (data.length === 0) {
         alert("Location not found!");
